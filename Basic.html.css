@@ -1,0 +1,152 @@
+<!-- html code starts from here  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+    <header><h1>Welcome to my webpage</h1></header>
+    <div class="nav">
+        <ul>
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#items">New</a></li>
+            <li><a href="#contact">Contact us</a></li>
+            <li><a href="#other">Orders</a></li>
+        </ul>
+    </div> 
+    
+
+    <div id="intro">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur vero sit provident! Perspiciatis explicabo quam tempore assumenda id! Deleniti earum tempora quo necessitatibus voluptatem suscipit dolorem molestias molestiae quae asperiores.
+    </div>
+       
+
+    <div id="items">
+        <h1>Best of weekends</h1>
+        <div id="burger">
+            <h3>Burgers with discount</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quas hic aliquid vitae id voluptas sequi, dolorum modi nesciunt perspiciatis cumque perferendis atque esse deserunt pariatur, minima assumenda. Dolores, consequuntur?</p>
+        </div>
+        <div id="fries">
+            <h3>Fries with discount</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quas hic aliquid vitae id voluptas sequi, dolorum modi nesciunt perspiciatis cumque perferendis atque esse deserunt pariatur, minima assumenda. Dolores, consequuntur?</p>
+        </div>
+        <div id="pizza">
+            <h3>Pizza with discount</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quas hic aliquid vitae id voluptas sequi, dolorum modi nesciunt perspiciatis cumque perferendis atque esse deserunt pariatur, minima assumenda. Dolores, consequuntur?</p>
+        </div>
+    </div>
+
+
+    <div id="other">
+        <h2>Search your favourite food items</h2>
+            <p>Type here <input type="search"></p>
+    </div>
+
+    <div class="why">
+        <h1>Why we</h1>
+        <div id="fast"><h3>Fast delivery</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eaque repellendus omnis? Velit accusantium corrupti eaque? Minima unde sunt obcaecati temporibus maxime nostrum iusto nihil quas quia doloribus? Architecto, sunt?
+        </div>
+        <div id="discount"><h3>Best offers</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eaque repellendus omnis? Velit accusantium corrupti eaque? Minima unde sunt obcaecati temporibus maxime nostrum iusto nihil quas quia doloribus? Architecto, sunt?
+        </div>
+        <div id="fresh"><h3>Best quality of food items</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eaque repellendus omnis? Velit accusantium corrupti eaque? Minima unde sunt obcaecati temporibus maxime nostrum iusto nihil quas quia doloribus? Architecto, sunt?
+        </div>
+    </div>
+
+
+    <div id="contact" >
+        <h1>Contact us</h1>
+        <form action="zomato.com">
+            <p>Name: <input type="text" name="name"></p>
+            <p>Mobile: <input type="number" name="number" id=""></p>
+            <p>Message: <textarea name="msg" cols="20" rows="5"></textarea></p>
+            <input type="submit" value="Send">
+        </form>
+
+    </div>
+
+    
+    
+</body>
+</html>
+
+
+
+
+/* css code starts from here  */
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+
+}
+
+
+.nav{
+    /* display: flex; */
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.nav ul{
+    display: flex;
+    font-family: cursive;
+}
+
+.nav ul li{ 
+    list-style: none;                /*To remove the bullets of points*/
+    font-size: 1.3rem;
+    padding: 3px 22px;
+    
+}
+
+.nav ul li a{
+    color: white; 
+    text-decoration: none;           /*To remove the underlines*/
+    
+}
+
+#intro{
+    padding: 25px;
+}
+
+
+#items h1{
+    color: aqua;
+    
+}
+
+
+#burger,#pizza,#fries{
+    color:blanchedalmond;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    border: 4px solid burlywood;
+}
+
+
+#other{
+    color: aquamarine;
+    text-align: center;
+    padding: 25px;
+}
+
+.why{
+    padding: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
